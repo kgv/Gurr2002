@@ -2,3 +2,9 @@
 authors = ["Giorgi Vladimirovich Kazakov", "Roman Aleksandrovich Sidorov"]
 language = "ru"
 src = "src"
+
+[preprocessor.autosummary]
+
+# This is so that mdBook doesn't start regenerating deleted folders before autosummary can remove them from SUMMARY.md
+[build]
+create-missing = false
