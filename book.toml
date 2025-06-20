@@ -5,6 +5,6 @@ src = "src"
 
 [preprocessor.autosummary]
 
-# This is so that mdBook doesn't start regenerating deleted folders before autosummary can remove them from SUMMARY.md
-[build]
-create-missing = false
+# # This is so that mdBook doesn't start regenerating deleted folders before autosummary can remove them from SUMMARY.md
+# [build]
+# create-missing = false
